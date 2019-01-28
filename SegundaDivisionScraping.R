@@ -61,7 +61,7 @@ second_division %>% View()
 
 ## Adding new player to the dataframe
 
-  second_division <- add_row(second_division,Jugadores = "Manu Barreiro",Posiciones="Delantero centro",Valores_Mercado=300000,Nacimiento="1986-07-08",Equipos = "CD Lugo")
+second_division <- add_row(second_division,Jugadores = "Manu Barreiro",Posiciones="Delantero centro",Valores_Mercado=300000,Nacimiento="1986-07-08",Equipos = "CD Lugo")
 
 ## Removing player from a dataframe
 ind <- which(str_detect(second_division$Jugadores,"Barreiro"))
