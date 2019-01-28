@@ -1,7 +1,6 @@
 library(rvest)
 library(tibble)
 library(tidyverse)
-library(lubridate)
 
 ## Scraping
 
