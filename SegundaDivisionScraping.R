@@ -44,7 +44,7 @@ second_division
 second_division <- data.frame(df, stringsAsFactors = FALSE)
 #################
 
-## Changing names of columns and putting as a tibble
+## Changing names of columns and putting dataframe as a tibble
 names(second_division) <- c("Jugadores","Posiciones","Valores_Mercado","Nacimiento","Equipos")
 second_division <- as_tibble(second_division)
 
